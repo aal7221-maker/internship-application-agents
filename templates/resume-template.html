@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>the candidate - Resume</title>
+<style>
+@page { size: Letter; margin: 0.5in 0.6in; }
+body { font-family: Calibri, Carlito, Arial, sans-serif; font-size: 10.3pt; color: #1a1a1a; line-height: 1.22; margin: 0; }
+h1 { font-size: 16pt; text-align: center; margin: 0 0 2px; letter-spacing: .5px; }
+.contact { text-align: center; font-size: 8.6pt; margin-bottom: 6px; }
+h2 { font-size: 10.6pt; margin: 8px 0 3px; border-bottom: 0.8px solid #1a1a1a; padding-bottom: 1px; text-transform: uppercase; }
+.head { font-weight: bold; margin-top: 4px; }
+.date { color: #595959; font-size: 8.6pt; }
+ul { margin: 1px 0 3px 16px; padding: 0; } li { margin: 0 0 1px; }
+p { margin: 2px 0; }
+</style></head><body>
+<h1>YOUR NAME</h1>
+<div class="contact">New York, NY &nbsp;|&nbsp; <your-email> &nbsp;|&nbsp; <your-school-email> &nbsp;|&nbsp; &lt;phone&gt; &nbsp;|&nbsp; linkedin.com/in/&lt;you&gt;</div>
+
+<h2>Summary</h2>
+<p>{{SUMMARY — 2–3 lines tailored to the role}}</p>
+
+<h2>Education</h2>
+<div class="head">{{DEGREE}} &nbsp;|&nbsp; {{UNIVERSITY}}</div>
+<div class="date">{{DATES}}</div>
+<p>Coursework: {{RELEVANT COURSES}}</p>
+<div class="head">{{DEGREE 2}} &nbsp;|&nbsp; {{UNIVERSITY 2}}</div>
+<div class="date">{{DATES}}</div>
+<p>Coursework: {{RELEVANT COURSES}}</p>
+
+<h2>Experience</h2>
+{{ENTRIES — for each: <div class="head">Title &nbsp;|&nbsp; Organization, Location</div><div class="date">Dates</div><ul><li>bullet</li></ul> — order by relevance; list your roles from PART C}}
+
+<h2>Projects</h2>
+{{PROJECTS — pick the 2–3 most relevant from PART C}}
+
+<h2>Leadership</h2>
+<div class="head">{{ROLE}} &nbsp;|&nbsp; {{ORG}}</div>
+<div class="date">{{DATES}}</div>
+<ul><li>{{BULLET}}</li></ul>
+
+<h2>Skills &amp; Certifications</h2>
+<p>{{SKILL LINES — matching skills first; Certifications: {{CERTS}}}}</p>
+</body></html>
